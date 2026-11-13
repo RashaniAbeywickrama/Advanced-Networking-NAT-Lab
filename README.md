@@ -28,8 +28,6 @@ The configurations were implemented in Cisco Packet Tracer and verified using co
 
 The network consists of two internal networks connected to Router1, which communicates with Router2 through a serial connection.
 
-![Network Topology](Screenshots/topology.png)
-
 ## 🌐 IP Addressing Scheme
 
 | Device | Interface | IP Address | Subnet Mask |
@@ -60,10 +58,6 @@ show ip nat translations
 show ip nat statistics
 ```
 
-**Evidence:**
-
-![Static NAT Configuration](Screenshots/static-nat.png)
-
 ### Part B – Dynamic NAT Configuration
 
 Dynamic NAT automatically assigns public IP addresses from a predefined address pool when internal devices initiate communication with external networks.
@@ -82,10 +76,6 @@ show ip nat translations
 show ip nat statistics
 ```
 
-**Evidence:**
-
-![Dynamic NAT Configuration](Screenshots/dynamic-nat.png)
-
 ### Part C – Port Address Translation (PAT)
 
 PAT, also known as NAT Overload, allows multiple internal devices to share a single public IP address by using different port numbers to identify individual connections.
@@ -102,10 +92,6 @@ PAT, also known as NAT Overload, allows multiple internal devices to share a sin
 show ip nat translations
 show ip nat statistics
 ```
-
-**Evidence:**
-
-![PAT Configuration](Screenshots/pat-configuration.png)
 
 ## 🔍 Verification and Troubleshooting
 
@@ -144,12 +130,5 @@ It also improved practical understanding of NAT translation tables, IOS verifica
 - Static NAT
 - Dynamic NAT
 - PAT (NAT Overload)
-
-## 📁 Project Files
-
-- [Packet Tracer Lab](Packet-Tracer/NAT-Configuration.pkt)
-- [Lab Report](Documentation/NAT-Lab-Report.pdf)
-
----
 
 *University Networking Laboratory | BICT Undergraduate Portfolio*
