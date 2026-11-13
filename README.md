@@ -1,13 +1,6 @@
 # Network Address Translation (NAT) Configuration Lab
 
-## Advanced Networking | ITN3052
-
-**Institution:** University of Sri Jayewardenepura  
-**Faculty:** Faculty of Technology  
-**Course:** ITN3052 – Advanced Networking  
-**Lab:** Dynamic Routing Lab Sheet 01  
-**Student:** Rashani Abeywickrama  
-**Technology:** Cisco Packet Tracer
+## Advanced Networking
 
 ---
 
